@@ -42,20 +42,8 @@ Permite que o jogador ative a visão noturna temporariamente, útil para áreas 
 Comando: /noturno
 Descrição: Ativa a visão noturna por 30 segundos.
 Uso: Após ativado, o jogador consegue enxergar melhor no escuro por 30 segundos.
-Instalação
-Baixe e mova todos os scripts para a pasta de recursos do servidor FiveM.
-Adicione cada script ao server.cfg do seu servidor:
 
-cfg
 
-Copiar código
-ensure invisibilidade
-ensure teletransporte
-ensure campodeforca
-ensure invocarrelampago
-ensure auradecura
-ensure visaonoturna
-Reinicie o servidor para que os poderes sobrenaturais estejam ativos.
 Contato
 Scripts desenvolvidos por Naur. Para dúvidas, sugestões ou colaborações, fique à vontade para abrir uma issue neste repositório.
 
