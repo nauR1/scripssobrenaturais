@@ -8,6 +8,7 @@ Permite que o jogador fique invisível por 10 segundos, com um tempo de recarga 
 Comando: /invisivel
 Descrição: Ativa a invisibilidade temporária do jogador.
 Uso: Após usar o comando, o jogador ficará invisível por 10 segundos, e o comando só poderá ser usado novamente após o cooldown.
+
 2. Teletransporte para Local Secreto (teletransporte.lua)
 Teletransporta o jogador para um local oculto no mapa.
 
@@ -20,18 +21,21 @@ Gera um campo de força em torno do jogador, protegendo-o de qualquer dano por 1
 Comando: /campodeforca
 Descrição: Ativa um escudo temporário que torna o jogador invencível por um tempo limitado.
 Uso: Após o tempo do escudo, o jogador retorna ao estado normal e precisa esperar o cooldown antes de ativar o comando novamente.
+
 4. Invocar Relâmpago (invocarrelampago.lua)
 Permite que o jogador invoque um raio sobre outro jogador, causando dano.
 
 Comando: /relampago [ID do jogador]
 Descrição: Invoca um raio que atinge o jogador especificado.
 Uso: Digite o comando com o ID do alvo. Um raio será invocado na posição do jogador selecionado, causando dano e gerando um efeito visual impactante.
+
 5. Aura de Cura (auradecura.lua)
 Cria uma aura que cura o jogador e qualquer aliado próximo durante 10 segundos.
 
 Comando: /cura
 Descrição: Ativa uma área de cura ao redor do jogador, regenerando a vida de qualquer um dentro do alcance.
 Uso: Ideal para apoiar aliados em combate. A aura cura jogadores próximos por uma quantidade específica de vida a cada segundo.
+
 6. Visão Noturna (visaonoturna.lua)
 Permite que o jogador ative a visão noturna temporariamente, útil para áreas escuras e ambientes noturnos.
 
@@ -41,7 +45,9 @@ Uso: Após ativado, o jogador consegue enxergar melhor no escuro por 30 segundos
 Instalação
 Baixe e mova todos os scripts para a pasta de recursos do servidor FiveM.
 Adicione cada script ao server.cfg do seu servidor:
+
 cfg
+
 Copiar código
 ensure invisibilidade
 ensure teletransporte
